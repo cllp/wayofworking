@@ -315,14 +315,11 @@ chatt, commit-meddelanden och PR-texter. Texten bär innehållet.
   annan sak och väljs i ramverket.
 - **Undantag:** märket ⛔ i regelfilerna, som pekar ut en hård regel.
 
-## 17. Det du skriver åt CP skickar han själv, i sin egen röst.
+## 17. Utkast åt CP skrivs i hans röst.
 
 Gäller utkast till sms, mejl och meddelanden som CP ska skicka i eget namn,
 oavsett repo.
 
-- **Skicka aldrig åt honom.** Utkastet är klipp-och-klistra, och det är han som
-  trycker på skicka. Stående instruktion i `relationer` sedan augusti 2026.
-  Händelsen bakom är inte nedskriven där, och CP fyller i den om den finns.
 - **Löpande text.** CP 2026-11-20, om ett utkast: "En sak som inte är jag. Det
   är när det står ett uttryck med kolon eller en fråga och så ett svar på det.
   Jag skriver i löpande text." Inga uttryck med kolon framför det som ska sägas,
@@ -331,4 +328,3 @@ oavsett repo.
 - **Hans ord, ofärdiga hellre än polerade.** CP samma dag, om stycken agenten
   hade putsat: "Det här låter pretentiöst." Utkastet skrevs om med hans egna
   formuleringar. Ett utkast som låter bättre än han pratar är ett sämre utkast.
-
