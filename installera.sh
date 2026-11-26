@@ -4,8 +4,8 @@
 #   bash installera.sh            klonar eller uppdaterar repot och skriver in hänvisningarna
 #   bash installera.sh --kontroll skriver ingenting, och är rött om reglerna inte är inlagda eller ligger efter
 #
-# ⛔ Skriver bara mellan markörerna. Det som står i ~/.claude/CLAUDE.md och ~/.codex/AGENTS.md utanför dem rörs inte.
-# ⛔ Tomt eller trasigt är rött, aldrig grönt (arbetsregel 5): saknas en fil, eller är den kortare än golvet, avbryts allt.
+# Hård regel: skriver bara mellan markörerna. Det som står i ~/.claude/CLAUDE.md och ~/.codex/AGENTS.md utanför dem rörs inte.
+# Hård regel: tomt eller trasigt är rött, aldrig grönt (arbetsregel 5): saknas en fil, eller är den kortare än golvet, avbryts allt.
 set -euo pipefail
 
 REPO="https://github.com/cllp/wayofworking"
@@ -18,7 +18,7 @@ if [ -n "${WAYOFWORKING_DIR:-}" ]; then KAT="$WAYOFWORKING_DIR"
 elif [ -d "$HOME/AI_Workfolder" ]; then KAT="$HOME/AI_Workfolder/wayofworking"
 else KAT="$HOME/wayofworking"; fi
 
-fel() { echo "⛔ wayofworking: $*" >&2; exit 1; }
+fel() { echo "STOPP, wayofworking: $*" >&2; exit 1; }
 
 kontroll=0
 [ "${1:-}" = "--kontroll" ] && kontroll=1

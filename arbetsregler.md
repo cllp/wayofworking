@@ -1,4 +1,4 @@
-# Arbetsreglerna 1 till 15
+# Arbetsreglerna 1 till 17
 
 Gäller allt arbete, i alla repon. Metaregeln och samarbetet står i [samarbete.md](samarbete.md) och gäller först.
 
@@ -250,7 +250,7 @@ vems tur det är:
 - **Varje agent söker på sin etikett minst en gång i timmen, i alla repon**
   (alla repon under `cllp`, listan i [repon.md](repon.md)). En sökning
   utan träff är inte ett svar förrän du vet vilka repon du sökte i (regel 3).
-  ⛔ **Sök PR:ar med PR-sökningen, inte med ärendesökningen.** Mätt 2026-10-30,
+  Hård regel: **Sök PR:ar med PR-sökningen, inte med ärendesökningen.** Mätt 2026-10-30,
   första dagen regeln gällde: ärendesökningen med `label:vantar-claude` gav noll
   träffar i alla tre repon, fast lifehub.identity PR 111 bar etiketten, och
   PR-sökningen (`is:pr is:open label:vantar-claude`) gav den direkt. Kön hade
@@ -261,7 +261,7 @@ vems tur det är:
   Blocket läggs i en egen kommentar och etiketten sätts.
 - Etiketterna är exakt tre, med exakt de här namnen. En fjärde ("väntar-alla",
   "blockerad") är en etikett som inte pekar ut någon.
-- ⛔ **Läs tråden innan du skriver i den, och skriv om ditt block när planen
+- Hård regel: **Läs tråden innan du skriver i den, och skriv om ditt block när planen
   ändras.** CP 2026-11-03: "Varför läser ni inte varandras meddelanden?" Natten
   innan hade Claude skrivit i ramverkets PR 503 att ompinningen skulle ligga i
   appens PR 618. Planen ändrades till en egen PR (619), men blocket i 503 stod
@@ -280,7 +280,7 @@ vems tur det är:
     över läser tråden igen när mottagaren har haft tid att göra sin del, en gång
     per överlämning. Ingen bevakning dygnet runt (CP samma dag: "du skall inte
     kolla varje timma dygnet runt").
-- ⛔ **Kvittensen står i PR:en, alltid.** CP 2026-11-04: "NI VÄNTAR PÅ
+- Hård regel: **Kvittensen står i PR:en, alltid.** CP 2026-11-04: "NI VÄNTAR PÅ
   VARANDRA" och sedan "Bra kvittensen i pr alltid". lifehub.app PR 628
   deployades 07:10, live som v1.0.1109, men beskedet om deployen gick till
   CP och inte till PR:en. Claude kan inte nå appens adress från sin miljö
@@ -295,3 +295,37 @@ vems tur det är:
     har slutat.
   - **Den som tar vid läser kvittensen och inget annat** innan den skriver
     något om läget.
+
+## 16. Inga ikoner eller emoji i det vi skriver.
+
+CP 2026-11-26, om kalenderposter som en agent lagt in via API:et med rubriker
+som började med en ikon: "Kan du ta bort såna här fruktansvärda ikoner som inte
+får vara med. Det står i alla regler." Mätt samma kväll: det stod inte här. En
+sökning på emoji, ikon och symbol i alla filer i wayofworking gav noll träffar.
+Agenten hade tagit efter äldre poster i samma kalender, som en tidigare agent
+lagt dit, och alla 56 poster fick tas bort och skapas om.
+
+**Regeln:** inga emoji och inga dekorativa ikoner i text vi skriver åt CP eller
+åt en användare. Det gäller rubriker, kalenderposter, anteckningar, dokument,
+chatt, commit-meddelanden och PR-texter. Texten bär innehållet.
+
+- **Att det redan står ikoner där du skriver är inget skäl.** Ta inte efter dem,
+  och säg att de finns (S9).
+- **Det gäller tecknen i texten.** Ikoner som gränssnittet själv ritar är en
+  annan sak och väljs i ramverket.
+- **Det gäller också reglerna själva.** En hård regel märks med orden Hård regel
+  eller med versaler, aldrig med ett tecken (samarbete.md, metaregeln).
+
+## 17. Utkast åt CP skrivs i hans röst.
+
+Gäller utkast till sms, mejl och meddelanden som CP ska skicka i eget namn,
+oavsett repo.
+
+- **Löpande text.** CP 2026-11-20, om ett utkast: "En sak som inte är jag. Det
+  är när det står ett uttryck med kolon eller en fråga och så ett svar på det.
+  Jag skriver i löpande text." Inga uttryck med kolon framför det som ska sägas,
+  inga etiketter eller rubriker framför stycken, och inte greppet att ställa en
+  fråga och sedan svara på den själv.
+- **Hans ord, ofärdiga hellre än polerade.** CP samma dag, om stycken agenten
+  hade putsat: "Det här låter pretentiöst." Utkastet skrevs om med hans egna
+  formuleringar. Ett utkast som låter bättre än han pratar är ett sämre utkast.
