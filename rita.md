@@ -23,6 +23,21 @@ egen mall och ingen annan generator.
 - **Anteckningar görs i markdown** och är inga artefakter. Detsamma gäller ett svar i chatten.
 - **Går något inte att göra i ramverket:** säg det och föreslå en komponent eller en profil. Bygg inte vid sidan av.
 
+## ⛔ Externt eller internt, och alltid en version med datum
+
+CP 2026-11-26: "Information är extern eller intern. I externa artefakter står det inte uppgifter som skall till mig, 'kom ihåg' saker
+och annat. Artefakter som skal delas sakall bara vara informativa och rena. Artefakter ersätts inte, bara nya versioner tillkommer.
+Alla artefakter har alltid en version med datum och kanske t o m tidsstämpel längst ner subtilt." Samma kväll hade en agent lämnat
+ett underlag där det som skulle delas stod blandat med punkter till CP, och fick säga i chatten vilka rader som måste strykas innan
+det gick vidare.
+
+- **Bestäm först om artefakten är extern eller intern.** Extern är allt som ska delas med någon annan. Är det oklart: fråga.
+- **En extern artefakt är bara informativ och ren.** Inga uppgifter till CP, inga "kom ihåg", inga öppna frågor till honom, inga
+  arbetsanteckningar och ingenting om hur den togs fram. Det hör hemma i en intern anteckning i markdown bredvid.
+- **Artefakter ersätts aldrig.** En ny version är en ny fil, och de tidigare ligger kvar (se "Det viktigaste").
+- **Alltid version och datum, gärna klockslag, längst ner och diskret** (`footer` i specen). Det är till för att veta exakt när
+  artefakten producerades. Datumet får också stå i sidhuvudet (`meta`) när läsaren har nytta av det.
+
 ## Välj stil med beställaren
 
 **Skissramverket** är namnet på hela verktyget och repot. Det finns två val av stil:
