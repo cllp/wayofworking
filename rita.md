@@ -34,9 +34,19 @@ det gick vidare.
 - **Bestäm först om artefakten är extern eller intern.** Extern är allt som ska delas med någon annan. Är det oklart: fråga.
 - **En extern artefakt är bara informativ och ren.** Inga uppgifter till CP, inga "kom ihåg", inga öppna frågor till honom, inga
   arbetsanteckningar och ingenting om hur den togs fram. Det hör hemma i en intern anteckning i markdown bredvid.
+- **Det som hör hemma i mejlet står inte i artefakten.** CP 2026-11-26, om ett förslag som skulle delas och som slutade med rutan
+  "Att tänka på", där första raden löd "så den behöver vara bestämd före fredag 18 december 2026": "sånt här är typiskt text att inte
+  ha med i pdf eller html, det är sånt som man formulerar i ett mail ... Det gör att dokumentet blir gammalt direkt och att det står
+  irrelevant info där hela året". Artefakten bär det som är sant så länge den gäller. När svaret behövs, vad mottagaren ska göra, vad
+  som händer sedan och andra hälsningar till läsaren skrivs i meddelandet som följer med. Provet: stämmer raden fortfarande om ett
+  halvår, för den som slår upp dokumentet då?
 - **Artefakter ersätts aldrig.** En ny version är en ny fil, och de tidigare ligger kvar (se "Det viktigaste").
 - **Alltid version och datum, gärna klockslag, längst ner och diskret** (`footer` i specen). Det är till för att veta exakt när
   artefakten producerades. Datumet får också stå i sidhuvudet (`meta`) när läsaren har nytta av det.
+- **Numret räknar det mottagaren får se, inte arbetsvarven.** Samma kväll stod "Förslag, version 9" i sidhuvudet på det första
+  dokument mottagaren skulle få. CP: "Version 9. LÅter som att jag har jobbat ihäl mig med denna." och "Detta är egentligen Förslag 1".
+  De åtta första varven fanns bara i samtalet med agenten. Det första som delas är nummer 1, och arbetsvarven numreras i
+  `_projektminne.md`, inte i artefakten.
 
 ## Välj stil med beställaren
 
