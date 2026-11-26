@@ -7,6 +7,18 @@
 
 Gäller Claude, Grok och alla andra agenter som gör dokument åt CP.
 
+## ⛔ Alltid skissramverket, för varje artefakt
+
+CP 2026-11-26, när reglerna samlades här: "vi använder ALLTID skissramverket när vi producerar artefakter och att det finns olika
+profiler där". Avsnitten nedan sa redan hur man gör, men inte att det gäller utan undantag.
+
+**Regeln:** allt som lämnas som en artefakt görs med skissramverket: dokument, sidor, presentationer, beslutsunderlag, PDF:er och
+kalenderblad. Ingen handskriven HTML, ingen egen mall och ingen annan generator.
+
+- **Profilerna är två, Redaktionell och LifeHub.** Valet görs med beställaren, se nästa avsnitt. Gissa aldrig.
+- **Går något inte att göra i ramverket:** säg det och föreslå en komponent (se "Ändra skissramverket"). Bygg inte vid sidan av.
+- **En anteckning i markdown eller ett svar i chatten är ingen artefakt.** Regeln gäller det som ska visas, skickas eller skrivas ut.
+
 ## Välj stil med beställaren
 
 **Skissramverket** är namnet på hela verktyget och repot. Det finns två val av stil:
