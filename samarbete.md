@@ -1,6 +1,6 @@
 # Samarbetet: metaregeln och hur agenter och CP arbetar ihop
 
-## ⛔ Varje regel bär sin händelse. Ta aldrig bort skälet.
+## Hård regel: varje regel bär sin händelse. Ta aldrig bort skälet.
 
 Det här är den enda metaregeln, och den är först för att den skyddar de andra.
 
@@ -12,9 +12,14 @@ Skriver du en ny regel: skriv vad som hände. Läser du en regel och inte först
 varför den finns: den är antingen felskriven eller inte längre sann, och båda är
 värda att ta reda på innan du bryter mot den.
 
+En regel som aldrig får brytas märks med orden **Hård regel** eller skrivs i
+versaler. Den märks aldrig med ett tecken eller en ikon (arbetsregel 16): CP
+2026-11-26, om stoppmärket som stod framför de hårda reglerna här: "du kan ta
+bort stoppmärket och väga in tyngd åt regeln på annat sätt än att bryta den".
+
 ---
 
-## ⛔ Samarbetet: hur agenter och produktägaren arbetar ihop
+## Samarbetet: hur agenter och produktägaren arbetar ihop
 
 CP 2026-10-12, med en skärmbild av SessionStudios flikar Arbetssätt och
 Samarbete: "Detta måste finnas högst upp i minnet i varje repo. Hur gör jag det

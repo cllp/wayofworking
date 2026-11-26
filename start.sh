@@ -4,10 +4,10 @@
 #   curl -fsSL https://raw.githubusercontent.com/cllp/wayofworking/main/start.sh | bash
 #
 # Lägger in reglerna på maskinen (installera.sh), och skriver ut samarbetet ordagrant plus en order att läsa de andra filerna.
-# Det som skrivs ut hamnar i agentens sammanhang. ⛔ Claude Code tar emot högst 10 000 tecken från en krok (dokumentationen för hooks,
+# Det som skrivs ut hamnar i agentens sammanhang. Obs: Claude Code tar emot högst 10 000 tecken från en krok (dokumentationen för hooks,
 # läst 2026-11-26), så bara samarbetet skrivs ut i sin helhet. Proven i prov.sh mäter att utskriften håller sig under taket.
 #
-# ⛔ Går något fel skrivs det ut som en order att stanna, aldrig tyst (arbetsregel 5). Kroken avslutar alltid med 0, så att texten når
+# Hård regel: går något fel skrivs det ut som en order att stanna, aldrig tyst (arbetsregel 5). Kroken avslutar alltid med 0, så att texten når
 # agenten: ett fel från en krok visas inte för agenten som en vanlig utskrift.
 set -uo pipefail
 
@@ -16,7 +16,7 @@ FILER=(samarbete.md arbetsregler.md rita.md utveckling.md)
 
 stanna() {
   cat <<EOF
-⛔⛔ WAYOFWORKING: REGLERNA GICK INTE ATT LÄSA IN. STANNA.
+STOPP. WAYOFWORKING: REGLERNA GICK INTE ATT LÄSA IN. STANNA.
 
 $1
 
@@ -39,7 +39,7 @@ fi
 for f in "${FILER[@]}"; do [ -s "$KAT/$f" ] || stanna "$KAT/$f saknas efter hämtningen."; done
 
 cat <<EOF
-⛔⛔ WAYOFWORKING: REGLERNA FÖR ALLT ARBETE ÅT CP, I ALLA REPON. LÄS INNAN DU GÖR NÅGOT.
+WAYOFWORKING: REGLERNA FÖR ALLT ARBETE ÅT CP, I ALLA REPON. LÄS INNAN DU GÖR NÅGOT.
 
 Källan är https://github.com/cllp/wayofworking ($(git -C "$KAT" rev-parse --short HEAD 2>/dev/null || echo okänd version)), på maskinen i $KAT.
 

@@ -250,7 +250,7 @@ vems tur det är:
 - **Varje agent söker på sin etikett minst en gång i timmen, i alla repon**
   (alla repon under `cllp`, listan i [repon.md](repon.md)). En sökning
   utan träff är inte ett svar förrän du vet vilka repon du sökte i (regel 3).
-  ⛔ **Sök PR:ar med PR-sökningen, inte med ärendesökningen.** Mätt 2026-10-30,
+  Hård regel: **Sök PR:ar med PR-sökningen, inte med ärendesökningen.** Mätt 2026-10-30,
   första dagen regeln gällde: ärendesökningen med `label:vantar-claude` gav noll
   träffar i alla tre repon, fast lifehub.identity PR 111 bar etiketten, och
   PR-sökningen (`is:pr is:open label:vantar-claude`) gav den direkt. Kön hade
@@ -261,7 +261,7 @@ vems tur det är:
   Blocket läggs i en egen kommentar och etiketten sätts.
 - Etiketterna är exakt tre, med exakt de här namnen. En fjärde ("väntar-alla",
   "blockerad") är en etikett som inte pekar ut någon.
-- ⛔ **Läs tråden innan du skriver i den, och skriv om ditt block när planen
+- Hård regel: **Läs tråden innan du skriver i den, och skriv om ditt block när planen
   ändras.** CP 2026-11-03: "Varför läser ni inte varandras meddelanden?" Natten
   innan hade Claude skrivit i ramverkets PR 503 att ompinningen skulle ligga i
   appens PR 618. Planen ändrades till en egen PR (619), men blocket i 503 stod
@@ -280,7 +280,7 @@ vems tur det är:
     över läser tråden igen när mottagaren har haft tid att göra sin del, en gång
     per överlämning. Ingen bevakning dygnet runt (CP samma dag: "du skall inte
     kolla varje timma dygnet runt").
-- ⛔ **Kvittensen står i PR:en, alltid.** CP 2026-11-04: "NI VÄNTAR PÅ
+- Hård regel: **Kvittensen står i PR:en, alltid.** CP 2026-11-04: "NI VÄNTAR PÅ
   VARANDRA" och sedan "Bra kvittensen i pr alltid". lifehub.app PR 628
   deployades 07:10, live som v1.0.1109, men beskedet om deployen gick till
   CP och inte till PR:en. Claude kan inte nå appens adress från sin miljö
@@ -313,7 +313,8 @@ chatt, commit-meddelanden och PR-texter. Texten bär innehållet.
   och säg att de finns (S9).
 - **Det gäller tecknen i texten.** Ikoner som gränssnittet själv ritar är en
   annan sak och väljs i ramverket.
-- **Undantag:** märket ⛔ i regelfilerna, som pekar ut en hård regel.
+- **Det gäller också reglerna själva.** En hård regel märks med orden Hård regel
+  eller med versaler, aldrig med ett tecken (samarbete.md, metaregeln).
 
 ## 17. Utkast åt CP skrivs i hans röst.
 

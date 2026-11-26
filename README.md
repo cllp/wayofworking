@@ -16,7 +16,7 @@ härifrån, innan de börjar. Repot hör inte till någon leverantör: inga file
 Repots egna regler står i repot, under raden som pekar hit, och bara det som gäller just det repot (Travel: reseprofilen, bolag-ops:
 bolagets ekonomi).
 
-## ⛔ Varför den finns
+## Varför den finns
 
 CP 2026-11-26: "Travel egenterna och sessionerna samarbetar inte och verkar helt lost oå hur vi skall jobba, vilka regler vi har,
 samarbetsmetoder mm mm. Det vi jobbat ett år med." Mätt samma natt: av 27 repon bar tre en kopia av reglerna (`bolag-ops`, `lifehub.app`,
@@ -39,11 +39,11 @@ Reglerna kopieras inte in i något repo (arbetsregel 2: en sanning per faktum). 
 3. **En kontroll när sessionen startar**, i reponas egna inställningar: finns inte reglerna på maskinen säger den det rakt ut, med kommandot
    som lägger in dem. Den går aldrig vidare tyst (arbetsregel 5).
 
-⛔ **En pekare i text räcker inte ensam, och det är mätt.** bolag-ops hade en sådan pekare till ramverkets regler i `node_modules`, och
+**En pekare i text räcker inte ensam, och det är mätt.** bolag-ops hade en sådan pekare till ramverkets regler i `node_modules`, och
 ingen agent läste den: en agent läser instruktionsfilen i sitt eget repo och sitt eget minne av sig själv, inget annat. Därför är steg 1
 det som bär.
 
-⛔ **Varför inte bara en startkrok som lägger in texten:** Claude Code tar emot högst 10 000 tecken från en krok, och resten hamnar i en fil
+**Varför inte bara en startkrok som lägger in texten:** Claude Code tar emot högst 10 000 tecken från en krok, och resten hamnar i en fil
 som agenten inte uppmanas att läsa (dokumentationen för hooks, läst 2026-11-26). Reglerna är omkring 67 000 tecken. Minnesfilens
 hänvisningar har ingen sådan gräns.
 

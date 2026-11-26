@@ -7,7 +7,7 @@
 
 Gäller Claude, Grok och alla andra agenter som gör dokument åt CP.
 
-## ⛔ Alltid skissramverket, för varje artefakt
+## Hård regel: alltid skissramverket, för varje artefakt
 
 CP 2026-11-26, när reglerna samlades här: "vi använder ALLTID skissramverket när vi producerar artefakter och att det finns olika
 profiler där", och: "Skissramverket kan utökas vid behov med nya profiler." Avsnitten nedan sa redan hur man gör, men inte att det
@@ -23,7 +23,7 @@ egen mall och ingen annan generator.
 - **Anteckningar görs i markdown** och är inga artefakter. Detsamma gäller ett svar i chatten.
 - **Går något inte att göra i ramverket:** säg det och föreslå en komponent eller en profil. Bygg inte vid sidan av.
 
-## ⛔ Externt eller internt, och alltid en version med datum
+## Hård regel: externt eller internt, och alltid en version med datum
 
 CP 2026-11-26: "Information är extern eller intern. I externa artefakter står det inte uppgifter som skall till mig, 'kom ihåg' saker
 och annat. Artefakter som skal delas sakall bara vara informativa och rena. Artefakter ersätts inte, bara nya versioner tillkommer.
