@@ -8,7 +8,7 @@ härifrån, innan de börjar. Repot hör inte till någon leverantör: inga file
 | # | Fil | Vad | Gäller |
 |---|---|---|---|
 | 1 | [samarbete.md](samarbete.md) | Metaregeln och samarbetet med CP, S1 till S11 | Alla repon |
-| 2 | [arbetsregler.md](arbetsregler.md) | Arbetsreglerna 1 till 15 | Alla repon |
+| 2 | [arbetsregler.md](arbetsregler.md) | Arbetsreglerna 1 till 17 | Alla repon |
 | 3 | [rita.md](rita.md) | Hur vi ritar dokument, sidor och presentationer: skissramverket och profilerna | Alla repon |
 | 4 | [utveckling.md](utveckling.md) | Life Hub: visionen, tavlan, gruppen Dev, MERGA NU, rollerna, deploy | Reponas där vi bygger kod |
 | | [repon.md](repon.md) | Alla repon under `cllp`, och vilka filer som gäller i vart och ett | |

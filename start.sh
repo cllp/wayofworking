@@ -45,7 +45,7 @@ Källan är https://github.com/cllp/wayofworking ($(git -C "$KAT" rev-parse --sh
 
 1. Samarbetet står nedan, i sin helhet.
 2. Läs med ditt läsverktyg, före första svaret, i den här ordningen:
-   - $KAT/arbetsregler.md (arbetsreglerna 1 till 15)
+   - $KAT/arbetsregler.md (arbetsreglerna 1 till 17)
    - $KAT/rita.md (hur vi ritar dokument och sidor)
    - $KAT/utveckling.md (Life Hub: tavlan, gruppen Dev, MERGA NU, rollerna, deploy; gäller reponas där vi bygger kod)
 3. Repots egna regler står i repots README.md, AGENTS.md och CLAUDE.md, under raden om wayofworking. De gäller efter dessa.
