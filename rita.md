@@ -10,16 +10,16 @@ Gäller Claude, Grok och alla andra agenter som gör dokument åt CP.
 ## ⛔ Alltid skissramverket, för varje artefakt
 
 CP 2026-11-26, när reglerna samlades här: "vi använder ALLTID skissramverket när vi producerar artefakter och att det finns olika
-profiler där", och sedan: "Vi producerar Word, pdf, och html filer. Alltid skissramverket. Vi har en default, men agenten kan fråga
-vilken profil. Skissramverket kan utökas vid behov med nya profiler." Avsnitten nedan sa redan hur man gör, men inte att det gäller
-utan undantag.
+profiler där", och: "Skissramverket kan utökas vid behov med nya profiler." Avsnitten nedan sa redan hur man gör, men inte att det
+gäller utan undantag.
 
-**Regeln:** de artefakter vi producerar är Word, PDF och HTML, och de görs alltid med skissramverket. Ingen handskriven HTML, ingen
+**Regeln:** de artefakter vi producerar är HTML, PNG och PDF, och de görs alltid med skissramverket. Ingen handskriven HTML, ingen
 egen mall och ingen annan generator.
 
-- **Det finns ett förval.** Utan `profil` i specen gäller Redaktionell (mätt i `lib/build-html.js`). Agenten får fråga vilken profil
-  som ska användas när det inte är givet.
+- **Agenten frågar vilken profil**, enligt nästa avsnitt. Ramverket har ett tekniskt förval, men det ersätter inte frågan (CP samma
+  dag: "Behåll att agenten frågar").
 - **Nya profiler läggs till vid behov**, i `cllp/skissramverk` (se "Ändra skissramverket"). I dag finns Redaktionell och LifeHub.
+- **Word görs bara i `TAM`**, med en egen profil där, och hör inte till skissramverket.
 - **Anteckningar görs i markdown** och är inga artefakter. Detsamma gäller ett svar i chatten.
 - **Går något inte att göra i ramverket:** säg det och föreslå en komponent eller en profil. Bygg inte vid sidan av.
 
