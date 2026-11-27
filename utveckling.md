@@ -377,6 +377,10 @@ test, alltså ute men inte provade: varje ny deploy gav CP mer att prova, inte m
 - **Deployen går i bakgrunden.** Ett skript startar hubb för hubb (funktionerna, sedan webben, för My och SessionStudio) och Claude kodar vidare under
   tiden. Ingen väntar i förgrunden på Macen.
 - **Kvittensen skrivs i varje mergad PR som omgången tog med**, och provlistan för omgången går i Dev med ett omnämnande av CP.
+- ⛔ **En leverans är klar först när alla hubbar kör den, i samma omgång** (cllp/lifehub.app#783, CP 2026-11-18: "783 går på din
+  rekommendation"). Knappen är **Deploy alla hubbar** (`deploy-alla.yml` i lifehub.app): den tar varje hubb i tur och ordning, stannar vid första
+  fel och mäter sist att varje hubbs webb och funktioner visar den deployade commiten. Kvittensen räknar upp varje hubb med version och sha. En
+  hubb som inte svarar är aldrig klar.
 
 ## EN PR PER ARBETSPASS, INTE EN PER FIX
 
